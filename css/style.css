@@ -1,0 +1,93 @@
+*{margin: 0;padding: 0;font-family:"微软雅黑";}
+li{list-style: none;}
+img{border: none;display: block;}
+a{text-decoration: none;}
+.clear{clear: both;}
+.warp{width: 98%;margin: 0 auto;}
+body{max-width: 480px;margin: 0 auto;background: #F2F2F2;}
+div{display: block;}
+
+
+.top_bar{position: fixed; top: 0;left: 0;width: 100%;height: 40px; z-index: 2;background: #f6f6f6;border: #CCC solid 1px;}
+.top_bar_search{height: 26px; background: #FFFFFF;width: 90%; border-radius: 5px; border: #CCCCCC solid 1px;margin-top: 3px;margin-left: 5dp;float: left;}
+.top_bar_search img{padding-left: 4px;padding-top: 2px;float: left;}
+.top_bar_search input{float: left; border: none;min-width: 180px;padding-top: 5px;}
+.top_bar_rightbox{float: right;font-size: .86em;position: absolute;line-height: 60px; height:40px;bottom: 1px;right: 2px;color: #2EAAE0;background: url(../img/user_press.png) center top no-repeat;background-size: 70%;}
+header{margin-top: 40px;}
+nav{background: #f2f2f2;overflow: hidden;padding-top: 3px; border-radius:21px;  }
+nav li{width: 33%; margin-left: 0.5%; height: 111px; background: #ff697a;float: left;}
+.hotel{margin-left: 0;}
+nav a{color: white;display: block;width: 100%;height: 100%;text-align: center;font-size: 16px;}
+.hotel a{ padding-top: 17px;height: 94px;background: url(../img/hotel.png) center 50px no-repeat;}
+nav li p{height: 55px; line-height: 55px;}
+nav li .p1{border-bottom: 1px solid #fff; }
+nav li .kezhan{background: url(../img/nav_06.png) right bottom no-repeat;}
+
+.nav1 li{background: #3d98ff;}
+.airport{margin-left: 0;}
+.airport a{padding-top: 17px;height: 94px;background: url(../img/airport.png) center 50px no-repeat;}
+
+.nav2 li{background: #44c522;}
+.tourist{margin-left: 0;}
+.tourist a{padding-top: 17px;height: 94px;background: url(../img/tourist.png) center 50px no-repeat;}
+
+.nav3 li{background: #fc9720;}
+.play{margin-left: 0;}
+
+
+.table{margin-top: 10px;height: 140px;background: #FFFFFF;width: 98%;border-radius: 15px;}
+.row div{float: left;width: 24%;text-align: center;display: block;height: 68px;border: #f2f2f2 solid 0.9PX;}
+.row div a{color: black;display: block;height: 28px; margin-top: 40px;}
+.col1{background:url(../img/tu_03.png) top center no-repeat;}
+.col2{background:url(../img/tu_05.png) top center no-repeat;}
+.col3{background:url(../img/tu_07.png) top center no-repeat;}
+.col4{background:url(../img/tu_09.png) top center no-repeat;}
+.col5{background:url(../img/tu_15.png) top center no-repeat;}
+.col6{background:url(../img/tu_16.png) top center no-repeat;}
+.col7{background:url(../img/tu_17.png) top center no-repeat;}
+.col8{background:url(../img/tu_18.png) top center no-repeat;}
+
+.hot_sell{width: 98%;height:255px;margin: 20px auto;background: #FFFFFF;}
+.title{height: 30px;padding: 8px;}
+.title img{float: left;}
+.title span{float: right;background: -webkit-linear-gradient(left,#ff4e63,#ff6cc9);border-radius: 10px;color:#fff;padding: 0 12px 0 12px;}
+.block_left{float: left;width: 49%;height: 205px; background: #F2F2F2;border: #FFFFFF solid 2px;}
+.block_left div p{height: 36px;line-height:21px;display:inline-block;font-size: 14px; text-overflow: ellipsis;padding: 8px;margin-top: 2px;}
+.sale_info{color: #ff495e; margin-top: 5px;padding-left: 8px;}
+.sale_info dfn{font-size: 12px;font-style: normal;vertical-align:baseline}
+.sale_info i{font-size: 15px; font-style: normal;vertical-align:baseline}
+.sale_info span{background: #fd3a51;color: #FFFFFF;border-radius: 8px;font-size: 12px;padding: 1px 6px;vertical-align: 1;display: inline-block;}
+.block_right{float: left; line-height: 18px;width: 49%; display: block; background: #F2F2F2;}
+.block_right div a dl dt{color: #fd3a51;font-size: 14px;font-weight: 700;letter-spacing:.06em}
+.block_right div a dl dd{font-size: 12px;}
+
+.block_right_top{background: url(../img/pic-tmh-02.png) bottom right no-repeat;background-size:20%;height: 88px;}
+.block_right_top a dl{padding: 8px;}
+.block_right_bottom{height: 112px; text-align: center;background: #F2F2F2;border-top:#FFFFFF solid 1px;}
+.block_right_bottom_left {padding-top:3px;border-right:#FFFFFF solid 1px; float: left;width:48%;height: 115px;background: url(../img/pic-tmh-03.png) center bottom no-repeat; background-size: 50%;background-position:50% 90%;}
+.block_right_bottom_right{padding-top:3px;border-left:#FFFFFF solid 1px;float: left;width: 48%;height: 115px;background: url(../img/pic-tmh-04.png) center bottom no-repeat; background-size: 50%;background-position:50% 90%;}
+.block_right_bottom .block_right_bottom_left a dl dt{color: #6aabff; font-style:initial;}
+.block_right_bottom_left a dl dd  .highlite{color: #6aabff;}
+.block_right_bottom .block_right_bottom_right a dl dt {color: #53ca72; font-style:initial; }
+.block_right_bottom_right a dl dd  .highlite{color: #53ca72;}
+
+.hot_activity{width: 100%;height:340px;margin: 20px auto;background: #FFFFFF;}
+.title{height: 30px;padding: 8px;}
+.title img{float: left;}
+.hot_activity .title span{float: right;background: -webkit-linear-gradient(left,#ffa93a,#ffd35c);border-radius: 10px;color:#fff;padding: 0 12px 0 12px;}
+.block_left1{width: 49.5%;float: left;border: #F2F2F2 solid 1px;}
+.block_right1{width: 49.5%; float: left;}
+.block_right1 div{border: #F2F2F2 solid 1px;}
+.block_bottom div{float: left;width: 49.4%;border: #F2F2F2 solid 1px;}
+
+footer{font-size: 12px; color: #333;}
+.control{width: 98%;background: #FFFFFF; border-bottom: #F2F2F2 solid 1px; border-top: #F2F2F2 solid 1px;height: 65px;}
+.control a div{float:  left;width: 33%; text-align: center;padding-top: 45px;}
+.control a{color: #000000; }
+#bg1{background: url(../img/icon1.png) no-repeat; background-position:  50% 10% ;}
+#bg2{background: url(../img/icon2.png) no-repeat; background-position:  50% 10% ;}
+#bg3{background: url(../img/icon3.png) no-repeat; background-position:  50% 10% ;}
+
+.leader{margin: 5px auto; width: 100%; text-align: center;}
+.leader a {color: #000000;} 
+.copyright{color: #999;text-align: center;}
